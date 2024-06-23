@@ -94,12 +94,6 @@ const Home = () => {
                             <p>WANT TO BE THE SMARTEST IN YOUR OFFICE?</p>
                             <p className='underline'>SIGN UP FOR OUR NEWSLETTER</p>
                             <p>FOLLOW US</p>
-                            <div className='description_page'>
-                                <i className="fa fa-instagram" style={{fontSize: '24px'}}></i>
-                                <i className="fa fa-facebook" style={{fontSize: '24px'}}></i>
-                                <i className="fa fa-twitter" style={{fontSize: '24px'}}></i>
-                                <i className="fa fa-linkedin" style={{fontSize: '24px'}}></i>
-                            </div>
                         </div>
                     </div>
                 </div>
