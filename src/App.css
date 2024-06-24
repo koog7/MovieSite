@@ -2,7 +2,27 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #f20d0d #242424;
+}
 
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f20d0d;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
 .navbar {
   padding: 10px 20px;
   background-color: #333;
@@ -22,7 +42,9 @@
   font-size: 1.5em;
   font-weight: bold;
 }
-
+.nav-link:hover{
+  border-bottom: 1px solid #f20d0d;
+}
 .navbar-links a {
   margin: 0 10px;
   text-decoration: none;
