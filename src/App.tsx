@@ -6,6 +6,9 @@ import ContactForm from "./components/ContactForm.tsx";
 import {Avatar, Button} from "@mui/material";
 import SettingsPNG from "./assets/img/Settings-PNG.png";
 import AboutUs from "./components/AboutUs.tsx";
+import Portfolio from "./components/Portfolio.tsx";
+import RandomNumber from "./portfolioComponents/RandomNumber.tsx";
+import ChuckNorris from "./portfolioComponents/ChuckNorris.tsx";
 
 const App: React.FC = () => (
     <>
@@ -19,7 +22,9 @@ const App: React.FC = () => (
                     <div className="navbar-links">
                             <NavLink className="nav-link" to="/">Home</NavLink>
                             <NavLink className="nav-link" to="/about">About</NavLink>
-                            <NavLink className="nav-link" to='/contact-form'> Contact</NavLink>
+                            <NavLink className="nav-link" to='/contact-form'>Contact</NavLink>
+                            <NavLink className="nav-link" to='/portfolio'>Portfolio</NavLink>
+
                         </div>
                         <div className="navbar-button">
                             <Button variant="contained" style={{backgroundColor: '#F20D0D', color: 'white'}}><img
@@ -35,6 +40,9 @@ const App: React.FC = () => (
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<AboutUs/>}/>
             <Route path="/contact-form" element={<ContactForm/>}/>
+            <Route path="/portfolio" element={<Portfolio/>}/>
+            <Route path="/randomnumber" element={<RandomNumber/>}/>
+            <Route path="/jokegenerator" element={<ChuckNorris/>}/>
         </Routes>
         <div className="footers">
             <div className='fourcolumns'>
