@@ -14,9 +14,9 @@ const App: React.FC = () => (
                 <div className={'container'}>
                     <div className={'navbar-block'}>
                         <div className="navbar-logo">
-                            MyLogo
-                        </div>
-                        <div className="navbar-links">
+                            <NavLink className={'logo'} to="/">Movie<span style={{fontSize: '16px'}}>Time</span></NavLink>
+                    </div>
+                    <div className="navbar-links">
                             <NavLink className="nav-link" to="/">Home</NavLink>
                             <NavLink className="nav-link" to="/about">About</NavLink>
                             <NavLink className="nav-link" to='/contact-form'> Contact</NavLink>

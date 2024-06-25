@@ -60,44 +60,6 @@ const Home = () => {
                     ))}
                 </Grid>
             </div>
-            <div className="footers">
-                <div className='fourcolumns'>
-                    <div className='row'>
-                        <div className='cloumnone'>
-                            <h1>The Agency for Movies</h1>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='columntwo'>
-                            <p>BISHKEK</p>
-                            <div>
-                                <p className='underline'>bishkek@example.com</p>
-                                <p>+996 (312) 123-456</p>
-                                <p>123 Primernaya str., Bishkek, Fictional Country 720001</p>
-                            </div>
-                            <p className='underline'>SEE ON MAP</p>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='columnthree'>
-                            <p>ALMATY</p>
-                            <div>
-                                <p className='underline'>kazakhstan@example.com</p>
-                                <p>+7 (701) 234-5678</p>
-                                <p>123 Primernaya str., Almaty, Fictional Country 050000</p>
-                            </div>
-                            <p className='underline'>SEE ON MAP</p>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='columnfour'>
-                            <p>WANT TO BE THE SMARTEST IN YOUR OFFICE?</p>
-                            <p className='underline'>SIGN UP FOR OUR NEWSLETTER</p>
-                            <p>FOLLOW US</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </>
     );
 };

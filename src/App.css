@@ -122,3 +122,8 @@ h1{
   text-decoration: underline;
   font-weight: 500;
 }
+
+.logo{
+  text-decoration: none;
+  color: white;
+}
